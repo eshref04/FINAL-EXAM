@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1075px) {
+    .footer__start {
+        .container{
+            flex-direction: column;
+            display: flex;
+            
+           }
+    }
+    
+  }
+
+  @media only screen and (max-width: 646px) {
+    .footer__start {
+    
+     .container{
+        width: 300px;
+     }
+
+     &__list{
+        flex-direction: column;
+       }
+       }
+       .footer__right{
+        display: flex;
+        flex-direction: column;
+       }
+    
+  }
+
+  

@@ -1,0 +1,57 @@
+.hero__section{
+    .container{
+       
+    }
+
+    &__right{
+        position: absolute;
+        top: 60%;
+        left: 68%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        h2{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            font-size: 14px;
+            padding: 10px 20px ;
+            background-color: #7971EA;
+            width: 130px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s linear;
+
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                
+            }
+        }
+    }
+
+    &__image{
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+    .hero__section{
+        &__right{
+            display: none;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 416px) {
+    .hero__section{
+        .container{
+            width:300px
+        }
+    }
+  }

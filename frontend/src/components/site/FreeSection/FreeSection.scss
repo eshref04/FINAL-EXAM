@@ -1,0 +1,26 @@
+.free__section{
+    &__left{
+        i{
+            font-size: 50px;
+            color: #7971EA;
+        }
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px;
+            color: #8C92A0;
+        }
+    }
+}
+
+@media only screen and (max-width: 646px) {
+    .free__section{
+        .container{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+  }
